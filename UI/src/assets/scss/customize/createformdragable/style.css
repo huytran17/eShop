@@ -1,0 +1,20 @@
+#draggable-container {
+  z-index: 99999999;
+  width: 600px;
+  height: auto;
+  min-height: 475px;
+  right: auto;
+  border-radius: 3px;
+  border-color: #dfdfdf;
+  padding: 0;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #fff;
+  outline: none;
+  overflow: visible;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=style.css.map */

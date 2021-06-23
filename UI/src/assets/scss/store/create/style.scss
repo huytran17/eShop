@@ -1,0 +1,500 @@
+@import "../../mixins/mixins.scss";
+#draggable-header {
+    & .form_header {
+        position: relative;
+        @include size(100%, 40px);
+        font-size: 16px;
+        border-color: #dfdfdf;
+        border-width: 1px;
+        background-color: #f0f0f0 !important;
+        cursor: move;
+        z-index: 2;
+        overflow: hidden;
+        & .title {
+            @include size(50%, 100%);
+            display: inline-block;
+            position: absolute;
+            left: 10px;
+            @include centerAbsolute("top");
+            &>* {
+                font: 700 16px roboto!important;
+                color: #212121;
+                @include centerAbsolute("top");
+            }
+        }
+        & .toggle {
+            @include size(41px);
+            display: inline-block;
+            position: absolute;
+            right: 3px;
+            & span {
+                overflow: hidden;
+                width: 16px;
+                height: 16px;
+                margin: 0;
+                color: #fff;
+                text-align: center;
+                opacity: 0.8;
+                cursor: pointer;
+                display: block;
+                @include centerAbsolute("both");
+            }
+        }
+    }
+}
+
+.fi:focus,
+textarea:focus,
+.combobox:focus {
+    outline: none;
+    border-color: #00577b !important;
+}
+
+.form {
+    & .fi,
+    & textarea,
+    & .combobox {
+        border-radius: 3px;
+        border-width: 1px !important;
+        border-style: solid !important;
+        border-color: rgb(143, 143, 143);
+        ;
+    }
+    & .phoneOnlyNum {
+        left: 245px;
+        top: 0;
+        max-width: 25px;
+        & .tooltiptext {
+            left: 130% !important;
+        }
+        & .error_icon {}
+    }
+    & .inputErrors {
+        position: relative;
+        & .required {
+            padding: 5px 25px 5px 10px !important;
+            border: 1px solid #f63233 !important;
+            max-width: 460.33px;
+            &:focus {
+                border: 1px solid #f63233 !important;
+            }
+        }
+        & .onlynum {
+            padding: 5px 25px 5px 10px !important;
+            border: 1px solid #f63233 !important;
+            max-width: 460.33px;
+            &:focus {
+                border: 1px solid #f63233 !important;
+            }
+        }
+        & .error_icon {
+            @include size(26px !important, 35px !important);
+            right: 0;
+            display: flex;
+            justify-content: center;
+            & span {
+                @include size(16px !important);
+                display: block;
+                align-self: center;
+            }
+        }
+    }
+    padding: 18px 16px 0px;
+    left: 0px;
+    @include size(596px, auto);
+    min-height: 465px;
+    top: 0px;
+    background: #fff;
+    color: #404040;
+    font-size: 13px;
+    font-weight: 300;
+    position: relative;
+    overflow: visible;
+    & .row {
+        & #checkboxStatus {
+            position: absolute;
+            & .v-input {
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                left: 99px;
+                top: -6px;
+                & .v-input__control {
+                    max-height: 35px;
+                    & .v-input__slot {
+                        max-height: 35px;
+                        margin: 0;
+                        & .v-input--selection-controls__input {}
+                        & .v-label {
+                            margin: 0;
+                            margin-left: 3px;
+                            margin-bottom: 4px;
+                        }
+                    }
+                }
+            }
+        }
+        & .wrappermenu {
+            max-height: 110px !important;
+            overflow-y: scroll !important;
+        }
+        display: flex;
+        position: relative;
+        @include size(100%, 35px);
+        margin-top: 8px;
+        & .input-group {
+            display: flex;
+            position: relative;
+            @include size(100%);
+            & .req {
+                color: #DF4646;
+            }
+            & label {
+                padding-right: 5px;
+                width: 127px;
+                height: 35px;
+                font: 400 13px Roboto!important;
+                color: #404040;
+                margin-top: 6px;
+                top: 5px !important;
+            }
+            & .fi {
+                padding: 5px 10px;
+                @include size(100%, 35px);
+                font: 400 13px Roboto!important;
+                color: #404040;
+                background-color: #fff;
+                min-height: 30px;
+                border: 0;
+                margin: 0;
+            }
+        }
+    }
+    & .gdbl {
+        display: block;
+        & .input-group {
+            display: inline-block;
+            width: 50%;
+            &>input {
+                width: 167px !important;
+                position: absolute;
+                right: 0;
+            }
+            & label {
+                position: absolute;
+                top: 3px;
+            }
+            &:first-child {
+                & .iit {
+                    right: 10px !important;
+                }
+            }
+            &:last-child {
+                & label {
+                    left: 8px;
+                }
+            }
+            & .combobox {
+                position: absolute;
+                @include size(168px !important, 35px);
+                left: 103px !important;
+                top: 0;
+            }
+            & input[name=phoneNumber] {
+                left: 103.5px;
+                width: 168px !important;
+            }
+        }
+    }
+    & #country {
+        & .combobox {
+            position: absolute;
+            @include size(168px !important, 35px);
+            left: 103.5px !important;
+            top: 0;
+        }
+        & label {
+            position: absolute;
+        }
+    }
+    & #district {
+        & .combobox {
+            position: absolute;
+            @include size(167px !important, 35px);
+            top: 0;
+            left: 115px !important;
+        }
+    }
+    & #storeTaxCode {
+        & label {
+            left: 8px;
+        }
+    }
+    & #boxProvince {
+        left: 103.5px !important;
+    }
+    & #boxWard {
+        left: 103.5px !important;
+    }
+    & #address {
+        height: 82px !important;
+        margin-bottom: 6px;
+        & textarea {
+            resize: none;
+            @include size(100%);
+        }
+        & .tooltip {
+            @include centerAbsolute('top');
+        }
+    }
+}
+
+.formfooter {
+    position: absolute;
+    @include size(100%, 60px);
+    bottom: 0;
+    z-index: 99999;
+    border-top: 1px solid #d0d0d0;
+    & .tip {
+        @include size(93.52px, 35px);
+        display: inline-block;
+        background-color: #fff;
+        border: 1px solid #fff;
+        padding: 7px;
+        outline: 0;
+        cursor: pointer;
+        white-space: nowrap;
+        text-decoration: none;
+        vertical-align: top;
+        left: auto;
+        right: 490px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 3px;
+        position: absolute;
+        transform: translateY(40%);
+        &:hover {
+            background-color: #e5e6eb;
+        }
+        &:focus {
+            border: 1px solid #6b6f9d!important;
+            color: #6b6f9d;
+        }
+        & span {
+            margin-top: 3px;
+        }
+    }
+    & span {
+        max-width: 100%;
+        display: inline-block;
+        &:first-child {
+            padding: 0 5px;
+            max-width: 100%;
+            @include size(16px !important);
+            margin-right: 3px;
+            display: block;
+        }
+        &:last-child {
+            padding: 0 4px;
+            font: 600 13px Roboto!important;
+            font-weight: 300;
+            line-height: 17px;
+            font-size: 13px;
+            color: #2b3173;
+        }
+    }
+    & .btns {
+        margin-left: auto;
+        display: flex;
+        position: absolute;
+        right: 10px;
+        position: absolute;
+        transform: translateY(40%);
+        & .btnSave {
+            margin: 0px;
+            height: 35px;
+            background-color: #026b97;
+            border-color: #026b97 !important;
+            padding: 9px 7px 7px 7px;
+            border-width: 1px;
+            border-style: solid;
+            display: flex;
+            border-radius: 3px;
+            &:hover {
+                cursor: pointer;
+                background-color: #0088c1;
+            }
+            &:active {
+                background-color: #00577b;
+            }
+            & * {
+                color: #ffffff;
+            }
+        }
+        & .btnSaveAndAdd {
+            margin: 0px;
+            width: 138px;
+            height: 35px;
+            background-color: #fff;
+            border-color: #026b97 !important;
+            padding: 9px 7px 7px 7px;
+            border-width: 1px;
+            border-style: solid;
+            display: flex;
+            border-radius: 3px;
+            white-space: nowrap;
+            margin: 0 9px;
+            & span:last-child {
+                color: #026b97;
+            }
+            &:hover {
+                & span:last-child {
+                    color: #0088c1;
+                }
+                cursor: pointer;
+            }
+        }
+        & .btnCancel {
+            margin: 0px;
+            width: 90px;
+            height: 35px;
+            background-color: #fff;
+            border-color: #ffffff !important;
+            padding: 9px 7px 7px 7px;
+            border-width: 1px;
+            border-style: solid;
+            display: flex;
+            border-radius: 3px;
+            & span:last-child {
+                color: #026b97;
+            }
+            &:hover {
+                border: 1px solid #0088c1 !important;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.tterr {
+    & .tooltip {
+        position: absolute;
+        display: inline-block;
+        right: 0;
+        z-index: 999999999;
+    }
+    & .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 200px;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 999999999;
+        @include centerAbsolute('top');
+        left: 140%;
+        background-color: #DF4646;
+    }
+    & .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent #DF4646 transparent transparent;
+        z-index: 999999999;
+    }
+    & .tooltip:hover .tooltiptext {
+        visibility: visible;
+        position: absolute;
+        z-index: 999999999 !important;
+    }
+}
+
+.tstoreCode,
+.tstoreName {
+    & .tooltip2 .tooltiptext2 {
+        visibility: hidden;
+        min-width: 220px;
+        width: auto;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 1px;
+        position: absolute;
+        z-index: 999999999;
+        top: 0px;
+        left: 10px;
+        background-color: #212121;
+    }
+}
+
+.tstoreCode,
+{
+    & .tooltip2 .tooltiptext2 {
+        min-width: 270px;
+        padding: 8px 4px;
+    }
+}
+
+.tstoreName {
+    & .tooltip2 .tooltiptext2 {
+        min-width: 230px;
+        padding: 8px 2px;
+    }
+}
+
+.taddress {
+    & .tooltip2 .tooltiptext2 {
+        visibility: hidden;
+        min-width: 140px;
+        width: auto;
+        color: #fff;
+        text-align: center;
+        border-radius: 3px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 999999999;
+        top: 10px;
+        left: 10px;
+        background-color: #212121;
+    }
+}
+
+.tttip {
+    position: absolute;
+    top: 0;
+    right: 0;
+    & .tooltip2 {
+        position: absolute;
+        display: inline-block;
+        right: 0;
+        z-index: 999999999;
+    }
+    & .tooltip2 .tooltiptext2::after {
+        content: "";
+        position: absolute;
+        top: 35%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent #212121 transparent transparent;
+        z-index: 999999999;
+    }
+    & .tooltip2:hover .tooltiptext2 {
+        visibility: visible;
+        position: absolute;
+        z-index: 999999999 !important;
+    }
+}
+
+.input-group:hover .tooltiptext2 {
+    visibility: visible;
+    position: absolute;
+    z-index: 999999999 !important;
+}

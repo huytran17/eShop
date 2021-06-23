@@ -1,0 +1,120 @@
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.dll
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csprojAssemblyReference.cache
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfoInputs.cache
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfo.cs
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.deps.json
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.dll
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.pdb
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.pdb
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CopyComplete
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.dll
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\tvhuy\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.pdb
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.deps.json
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.dll
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.pdb
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.dll
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.pdb
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csprojAssemblyReference.cache
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfoInputs.cache
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfo.cs
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CopyComplete
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.dll
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\MISA.Đánh giá\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.pdb
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.deps.json
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.dll
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.pdb
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.dll
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.pdb
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csprojAssemblyReference.cache
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfoInputs.cache
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfo.cs
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CopyComplete
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.dll
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\MISA.DanhGia\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.pdb
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.deps.json
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.dll
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.pdb
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.dll
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.pdb
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csprojAssemblyReference.cache
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfoInputs.cache
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfo.cs
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CopyComplete
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.dll
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\tvhuy\14062021\MISA.Test\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.pdb
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.deps.json
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.dll
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.pdb
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.dll
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.pdb
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csprojAssemblyReference.cache
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfoInputs.cache
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfo.cs
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CopyComplete
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.dll
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\tvhuy\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.pdb
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.deps.json
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.dll
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.pdb
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.dll
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.pdb
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csprojAssemblyReference.cache
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfoInputs.cache
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfo.cs
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CopyComplete
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.dll
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\ref\MISA.Infrastructure.dll
+D:\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.pdb
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.deps.json
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.dll
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\ref\MISA.Infrastructure.dll
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.pdb
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.dll
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.pdb
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfo.cs
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CopyComplete
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.dll
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\ref\MISA.Infrastructure.dll
+C:\Users\admin\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.pdb
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.deps.json
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.dll
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\ref\MISA.Infrastructure.dll
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Infrastructure.pdb
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.dll
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\bin\Debug\net5.0\MISA.Core.pdb
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csprojAssemblyReference.cache
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.AssemblyInfo.cs
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.csproj.CopyComplete
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.dll
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\ref\MISA.Infrastructure.dll
+C:\Users\tvhuy\Downloads\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833 (1)\eShop.MISA.TVHUY_MF833\MISA.Test.API\MISA.Test.Infrastructure\obj\Debug\net5.0\MISA.Infrastructure.pdb

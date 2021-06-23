@@ -1,0 +1,19 @@
+@import '../../mixins/mixins.scss';
+#draggable-container {
+    z-index: 99999999;
+    width: 600px;
+    height: auto;
+    min-height: 475px;
+    right: auto;
+    border-radius: 3px;
+    border-color: #dfdfdf;
+    padding: 0;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #fff;
+    outline: none;
+    overflow: visible;
+    @include centerAbsolute('both');
+}
+
+#draggable-header {}

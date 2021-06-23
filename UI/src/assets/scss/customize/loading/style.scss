@@ -1,0 +1,12 @@
+@import '../../../../assets/scss/common/style.scss';
+#loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    @include size(100vw, 100vh);
+    z-index: 99999999;
+    background-color: rgba(0, 0, 0, 0.5);
+    & .wapper {
+        @include centerAbsolute('both');
+    }
+}

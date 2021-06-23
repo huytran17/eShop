@@ -1,0 +1,564 @@
+@import '../../common/style';
+#content {
+    padding: 8px;
+    right: auto;
+    border: none;
+    border-top: 1px solid #e5e6eb !important;
+    background-color: #e5e6eb;
+    overflow-x: hidden;
+    position: relative;
+    & #wrapper {
+        @include size(100%);
+        overflow: hidden;
+        position: relative;
+        & .header {
+            border-width: 1px 1px 0px;
+            @include size(100%, 36px);
+            margin: 0px;
+            background-color: #2b3173;
+            border-style: solid;
+            border-color: #d0d0d0;
+            position: absolute;
+            & ul.funcs {
+                list-style-type: none;
+                display: block;
+                padding: 0;
+                @include size(auto, 36px);
+                & .item {
+                    position: relative;
+                    padding: 0 7px!important;
+                    display: inline-block;
+                    cursor: pointer;
+                    @include size(auto, 36px);
+                    &:not(:first-child) {
+                        padding-left: 8px !important;
+                    }
+                    &:first-child {
+                        padding-right: 9px !important;
+                    }
+                    &:nth-child(2) {
+                        & .icon {
+                            margin-right: 2px !important;
+                        }
+                    }
+                    &:hover {
+                        background-color: #6B6F9D;
+                        & .box {
+                            background-color: #6B6F9D;
+                        }
+                    }
+                    & .box {
+                        display: flex;
+                        right: auto;
+                        left: 0px;
+                        top: 0px;
+                        background-color: #2b3173;
+                        border: none;
+                        margin: 0!important;
+                        outline: 0;
+                        white-space: nowrap;
+                        text-decoration: none;
+                        vertical-align: top;
+                        overflow: hidden;
+                        font-weight: 300;
+                        color: #404040;
+                        @include size(auto, 35px);
+                        justify-content: center;
+                        align-items: center;
+                        min-height: 16px;
+                        white-space: nowrap;
+                        line-height: 0;
+                        position: relative;
+                        & .icon {
+                            font-size: 16px;
+                            color: #919191;
+                            line-height: 16px;
+                            display: inline-block;
+                            text-align: center;
+                            margin-right: 3px;
+                            @include size(16px);
+                            margin-top: -2px;
+                        }
+                        & .label {
+                            font: 400 13px roboto;
+                            color: #ffffff;
+                            padding: 0 5px;
+                            max-width: 100%;
+                            overflow: hidden;
+                            height: auto;
+                            white-space: nowrap;
+                            display: inline;
+                            line-height: 16px;
+                            margin-top: 2px;
+                        }
+                    }
+                    & .separator {
+                        left: auto;
+                        right: 0;
+                        top: 2px;
+                        margin: 0;
+                        height: 32px;
+                        font-size: 1px;
+                        overflow: hidden;
+                        cursor: default;
+                        position: absolute!important;
+                        display: block;
+                        line-height: 0;
+                        z-index: 9999;
+                        border-style: solid;
+                        border-width: 0 0 0 1px;
+                        border-left-color: #00577b;
+                        border-right-color: #00577b;
+                    }
+                }
+            }
+        }
+        & .body {
+            @include size(100%, calc(100% - 53px - 36px) !important);
+            margin: 0px;
+            position: absolute;
+            top: 36px;
+            & .row {
+                & .cell {
+                    text-align: center;
+                    margin: 0!important;
+                    display: inline-block;
+                    white-space: nowrap;
+                    height: 64px !important;
+                    & .text {
+                        @include size(100%, 32px);
+                        padding: 6px 10px 6px;
+                    }
+                    &.StoreCode {
+                        @include size(160px, 100%);
+                    }
+                    &.StoreName {
+                        @include size(250px, 100%);
+                    }
+                    &.Address {
+                        @include size(calc(100% - (160px + 250px + 130px + 150px)), 100%);
+                    }
+                    &.PhoneNumber {
+                        @include size(130px, 100%);
+                    }
+                    &.Status {
+                        @include size(150px, 100%);
+                    }
+                }
+            }
+            .table {
+                position: absolute;
+                @include size(100%);
+                border-collapse: separate;
+                text-indent: initial;
+                border-spacing: 2px;
+                & .thead {
+                    @include size(100%, 64px !important);
+                    border-top-color: #e1e1e1!important;
+                    border-top-width: 1px!important;
+                    border-left-color: #e1e1e1!important;
+                    border-left-width: 1px!important;
+                    right: auto;
+                    left: 0px;
+                    top: 0px;
+                    border-right: 0!important;
+                    border: 1px solid #d0d0d0;
+                    border-bottom-color: #ffffff;
+                    position: absolute;
+                    background-color: #f0f0f0!important;
+                    & .row {
+                        @include size(100%);
+                        & .cell {
+                            &:not(:last-child) {
+                                border-right: 1px solid #d0d0d0;
+                            }
+                            & span {
+                                font-family: Roboto!important;
+                                font-size: 13px;
+                                font-weight: 700;
+                                white-space: initial;
+                                background-repeat: no-repeat;
+                                text-align: center;
+                                line-height: 15px;
+                            }
+                            & .filterList {
+                                border: 1px solid rgb(223, 223, 223);
+                                background-color: #ffffff;
+                                border-radius: 3px;
+                                right: auto;
+                                left: 1px;
+                                position: absolute;
+                                top: 33px;
+                                max-height: 330px;
+                                @include size(124px, 157px);
+                                z-index: 9999;
+                                & .item {
+                                    right: auto;
+                                    margin: 0px;
+                                    @include size(122px, 31.4px);
+                                    border-width: 0;
+                                    cursor: pointer;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    border-color: transparent;
+                                    border-style: solid;
+                                    text-align: left;
+                                    &:hover {
+                                        background-color: #0088c1;
+                                        color: #ffffff;
+                                    }
+                                    & span {
+                                        font-size: 13px;
+                                        font-family: roboto, Tahoma, sans-serif!important;
+                                        font-weight: 400;
+                                        font: 400 13px / 31px Roboto;
+                                        padding-top: 1px;
+                                        cursor: pointer;
+                                        margin-left: 10px;
+                                        @include size(auto, 31.4px);
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                        }
+                        & .filterc {
+                            position: relative !important;
+                            @include size(150px, 33px);
+                            & .combobox {
+                                position: absolute !important;
+                                top: 0;
+                                left: 1px;
+                                @include size(147px, 100%);
+                                background-color: #fff;
+                                border-radius: 0;
+                                border: 1px solid transparent;
+                                padding-left: 1px;
+                                & .item {
+                                    text-align: left;
+                                }
+                            }
+                        }
+                        & .filterh {
+                            @include size(159px, 33px !important);
+                            position: absolute;
+                            top: -0.5px;
+                            & .filterList {
+                                box-shadow: 0px 1px 5px 0 #888888;
+                            }
+                            & .filterInp {
+                                position: absolute;
+                                top: 0;
+                                left: 34px;
+                                @include size(calc(100% - 34px), 32px);
+                                background-color: #ffffff;
+                                & input {
+                                    @include size(calc(100% - 4px + 0.5px), 31px);
+                                    position: absolute;
+                                    left: 1px;
+                                    top: 1px;
+                                    background-color: #ffffff;
+                                    padding: 5px 10px;
+                                    font: 400 13px Roboto!important;
+                                    color: #404040;
+                                    line-height: 25px;
+                                    border-radius: 0 !important;
+                                    &:focus {
+                                        outline: none;
+                                        border-bottom: none !important;
+                                        border: 1px solid #0088c1;
+                                    }
+                                }
+                                & .wrapper {
+                                    border-width: 1px;
+                                    border-style: solid;
+                                    border-color: #d0d0d0;
+                                    overflow: hidden;
+                                    @include size(calc(100% - 3px), 100%);
+                                    position: absolute;
+                                    left: 1px;
+                                    top: 0;
+                                }
+                            }
+                            @include size(100%, 32px);
+                            position: relative;
+                            & .filterBtn {
+                                @include size(34px, 100%);
+                                margin: 0px;
+                                right: auto;
+                                top: 0px;
+                                left: 1px;
+                                position: absolute;
+                                background-color: rgb(255, 255, 255);
+                                border-color: rgb(225, 225, 225);
+                                border-radius: 0px;
+                                padding: 7px;
+                                border-width: 1px;
+                                border-style: solid;
+                                cursor: pointer;
+                                border-left: none !important;
+                                & span.showText {
+                                    @include size(18px, 19px);
+                                    text-align: center;
+                                    justify-content: center;
+                                    text-align: left;
+                                    justify-content: flex-start;
+                                    white-space: nowrap;
+                                    line-height: 0;
+                                    position: relative;
+                                    display: flex;
+                                    align-items: center;
+                                    flex: 1 1 auto;
+                                    min-width: 0px;
+                                    &>span {
+                                        color: rgb(0, 0, 0);
+                                        font-weight: 400;
+                                        font: 400 12px / 16px "Open Sans", "Helvetica Neue", helvetica, arial, verdana, sans-serif;
+                                        font-family: Roboto !important;
+                                        padding: 0px 5px 0 6.5px;
+                                        max-width: 100%;
+                                        text-align: left;
+                                        @include size(16px);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                & .tbody {
+                    position: absolute;
+                    top: 66px;
+                    left: 1px;
+                    bottom: 0;
+                    @include size(100%, calc(100% - 50px));
+                    overflow: scroll;
+                    padding: 0 !important;
+                    &::-webkit-scrollbar {
+                        width: 0;
+                    }
+                    & .row {
+                        height: 33px;
+                        position: relative;
+                        outline: none;
+                        vertical-align: inherit;
+                        border-color: inherit;
+                        padding: 0;
+                        &:hover {
+                            background-color: #d1f1ff !important;
+                        }
+                        &:nth-child(even) {
+                            background-color: #F6F6F6;
+                        }
+                        &:nth-child(odd) {
+                            background-color: #ffffff;
+                        }
+                        & .cell {
+                            height: 32px !important;
+                            border-width: 0 1px 0 0;
+                            vertical-align: top;
+                            overflow: hidden;
+                            border-color: #e1e1e1;
+                            border-style: solid;
+                            & .text {
+                                text-align: left;
+                                position: relative;
+                                text-overflow: ellipsis;
+                                padding: 7px 10px 6px;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        & .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+            border: 1px solid #e1e1e1!important;
+            padding: 10px!important;
+            font-family: Roboto!important;
+            font-size: 13px;
+            border-style: solid;
+            border-color: #d0d0d0;
+            background-color: #fff;
+            @include size(100%, 53px);
+            & .pagination {
+                @include size(100%);
+                display: flex;
+                position: relative;
+                & .part {
+                    @include size(50%, 100%);
+                    position: relative;
+                    &.part_left {
+                        position: relative;
+                        width: 329px;
+                        & .prevBtns {
+                            @extend .pagination-wrapper-btn;
+                            left: 0;
+                            & span {
+                                @extend .pagination-btn;
+                                opacity: 1;
+                                border: 1px solid #026b97;
+                                &:active {
+                                    border-color: #00577b;
+                                }
+                                &:hover {
+                                    border-color: #0088c1 !important;
+                                }
+                            }
+                            & .first {
+                                right: auto;
+                                left: 0px;
+                                top: 3px;
+                            }
+                        }
+                        & .txtIn {
+                            overflow: hidden;
+                            position: absolute;
+                            @include size(150px, 26px);
+                            top: 2px;
+                            left: 53.5px;
+                            display: flex;
+                            justify-content: space-between;
+                            & span {
+                                margin: 0px;
+                                color: #4b4c4c;
+                                font: 400 13px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+                                @include size(43px, 16px);
+                                align-self: center;
+                                &:last-child {
+                                    width: auto;
+                                    display: inline-block;
+                                    padding-right: 10px;
+                                }
+                                &:first-child {
+                                    width: auto;
+                                    display: inline-block;
+                                    margin-left: 2px;
+                                }
+                            }
+                            & input {
+                                border-radius: 3px;
+                                border-width: 1px;
+                                border-style: solid;
+                                border-color: #026b97;
+                                padding: 4px 6px;
+                                text-align: center;
+                                background-color: #fff;
+                                font-family: Roboto!important;
+                                min-height: 24px;
+                                @include size(51px, 100%);
+                                font: 400 13px Roboto!important;
+                                color: #404040;
+                                &:focus {
+                                    outline: none;
+                                    border: 1px solid #00577b !important;
+                                }
+                                &:hover {
+                                    border-color: #0088c1 !important;
+                                }
+                            }
+                        }
+                        & .nextBtns {
+                            @extend .pagination-wrapper-btn;
+                            left: calc(50px + 150px + 6px);
+                            & span {
+                                @extend .pagination-btn;
+                                opacity: 1;
+                                &:active {
+                                    border-color: #00577b;
+                                }
+                                &:hover {
+                                    border-color: #0088c1 !important;
+                                }
+                            }
+                        }
+                        & .reload {
+                            @extend .pagination-wrapper-btn;
+                            right: 23.5px;
+                            top: 1.5px;
+                            & span {
+                                @extend .pagination-btn;
+                                opacity: 1;
+                            }
+                            &:active {
+                                border-color: #00577b;
+                            }
+                        }
+                        & .total {
+                            @extend .pagination-wrapper-btn;
+                            right: -1.3px;
+                            top: 2.7px;
+                            @include size(46px, 26px);
+                            & .combobox {
+                                opacity: 1;
+                                @include size(46px, 23.8px);
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                & * {
+                                    font-size: 13px;
+                                }
+                                & .wrapper {
+                                    position: relative;
+                                    @include size(100%);
+                                    & .input,
+                                    & input {
+                                        padding: 0;
+                                        padding-left: 2.5px;
+                                        @include size(100%);
+                                        min-height: 23.8px;
+                                        padding-bottom: 1px;
+                                    }
+                                    & .toggler {
+                                        @include size(15px, 21px);
+                                        line-height: 19px;
+                                        position: absolute;
+                                        right: 2px;
+                                        z-index: 0;
+                                    }
+                                }
+                                & .menu {
+                                    position: absolute;
+                                    top: -124px;
+                                    left: 0;
+                                    & .wrappermenu,
+                                    & .shadow {
+                                        width: 46px;
+                                    }
+                                    //TODO: cho vào hay không nhỉ?
+                                    // & .combobox_item_active {
+                                    //     background-color: #ffffff !important;
+                                    //     color: #000000;
+                                    // }
+                                }
+                            }
+                        }
+                    }
+                    &.part_right {
+                        @include size(auto, 100%);
+                        position: absolute;
+                        right: 12.5px;
+                        top: -1px;
+                        & .txtNote {
+                            vertical-align: middle;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            @include size(100%);
+                            & span {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.disabled {
+    opacity: 0.5 !important;
+}

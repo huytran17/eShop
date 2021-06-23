@@ -1,0 +1,86 @@
+#sidebar {
+  background-color: #2b3173;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%; }
+  #sidebar .logo {
+    background-color: #1E235A;
+    width: 150px;
+    height: 52px; }
+    #sidebar .logo img {
+      width: 100%;
+      height: 53.24;
+      padding-top: 3px; }
+  #sidebar .items .item, #sidebar .bottom_menu .item {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #2b3173;
+    z-index: 9999999; }
+    #sidebar .items .item:hover, #sidebar .bottom_menu .item:hover {
+      background-color: #1E235A; }
+      #sidebar .items .item:hover .label, #sidebar .bottom_menu .item:hover .label {
+        color: #ffffff; }
+    #sidebar .items .item a, #sidebar .bottom_menu .item a {
+      text-decoration: none;
+      position: relative;
+      width: 100%;
+      height: 40px;
+      line-height: 17px;
+      box-sizing: content-box;
+      font-size: 13px; }
+      #sidebar .items .item a .icon, #sidebar .bottom_menu .item a .icon {
+        background-image: url("../../../../../public/ImagesIcons/slibarmenu.png");
+        background-repeat: no-repeat;
+        width: 22px;
+        height: 38px;
+        display: inline-block;
+        position: absolute;
+        left: 8px;
+        top: 2px;
+        z-index: 1; }
+      #sidebar .items .item a .icon-dashboard, #sidebar .bottom_menu .item a .icon-dashboard {
+        background-position: 0 6px; }
+      #sidebar .items .item a .icon-report, #sidebar .bottom_menu .item a .icon-report {
+        background-position: 0 -273px; }
+      #sidebar .items .item a .icon-deleveryledger, #sidebar .bottom_menu .item a .icon-deleveryledger {
+        background-image: url("../../../../../public/ImagesIcons/ic_sogiaohang.png");
+        background-position: 4px 9px; }
+      #sidebar .items .item a .icon-purchases, #sidebar .bottom_menu .item a .icon-purchases {
+        background-image: url("../../../../../public/ImagesIcons/slibarmenu.png");
+        background-position: 0 -33px; }
+      #sidebar .items .item a .icon-sales, #sidebar .bottom_menu .item a .icon-sales {
+        background-image: url("../../../../../public/ImagesIcons/slibarmenu.png");
+        background-position: 0 -193px; }
+      #sidebar .items .item a .icon-storemanagement, #sidebar .bottom_menu .item a .icon-storemanagement {
+        background-image: url("../../../../../public/ImagesIcons/slibarmenu.png");
+        background-position: 0 -233px; }
+      #sidebar .items .item a .icon-products, #sidebar .bottom_menu .item a .icon-products {
+        background-image: url("../../../../../public/ImagesIcons/slibarmenu.png");
+        background-position: 0 -350px; }
+      #sidebar .items .item a .label, #sidebar .bottom_menu .item a .label {
+        width: 150px;
+        height: 26px;
+        font-size: 13px;
+        color: #aaacc7;
+        position: absolute;
+        left: 0;
+        top: 11px;
+        bottom: 3px;
+        text-align: left;
+        padding-left: 40px;
+        line-height: 18px; }
+  #sidebar .bottom_menu {
+    border-top: 1px solid #190472; }
+
+.active_nav {
+  background-color: #1E235A !important; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,148 @@
+#alertAlreadyExists {
+  width: 400px;
+  height: 152px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  z-index: 99999999;
+  border-radius: 3px; }
+  #alertAlreadyExists .header {
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 41px;
+    border-radius: 3px;
+    padding: 10px 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dfdfdf;
+    border-bottom-left-radius: 0;
+    cursor: move; }
+    #alertAlreadyExists .header .wrapper {
+      width: 370px;
+      height: 19px;
+      font-size: 16px;
+      position: relative;
+      left: 0;
+      top: 0;
+      font-family: roboto, Tahoma, sans-serif !important;
+      font-size: 13px;
+      line-height: 17px;
+      font-weight: 300; }
+      #alertAlreadyExists .header .wrapper .title {
+        font: 600 16px Roboto !important;
+        color: #212121; }
+      #alertAlreadyExists .header .wrapper .icon {
+        right: auto;
+        left: 354px;
+        top: 1px;
+        margin: 0px;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 1;
+        position: absolute;
+        width: 16px;
+        height: 16px; }
+        #alertAlreadyExists .header .wrapper .icon span {
+          background: url("../../../../../public/ImagesIcons/common-icon.png") no-repeat -1102px -153px;
+          font: 16px/1 FontAwesome;
+          overflow: hidden;
+          width: 16px;
+          height: 16px;
+          margin: 0;
+          color: #fff;
+          text-align: center;
+          opacity: .8;
+          display: block; }
+  #alertAlreadyExists .body {
+    overflow: auto;
+    width: 396px;
+    left: 0px;
+    top: 39px;
+    height: 64px;
+    background: #fff;
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+    position: relative;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 3px; }
+    #alertAlreadyExists .body .icon {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      position: relative; }
+      #alertAlreadyExists .body .icon span {
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        right: auto;
+        left: 0px;
+        margin: 0px;
+        top: 0px;
+        display: block;
+        background: url("../../../../../public/ImagesIcons/icon-popup.png") no-repeat -56px -2px; }
+    #alertAlreadyExists .body .text {
+      right: auto;
+      margin: 0px;
+      height: 34px;
+      width: 322px;
+      position: absolute;
+      left: 64px;
+      top: 10px;
+      overflow: hidden; }
+  #alertAlreadyExists .footer {
+    width: 399px;
+    right: auto;
+    left: 0px;
+    bottom: 0px;
+    padding: 8px 0 8px 6px;
+    border-style: solid;
+    border-color: #dfdfdf;
+    background-image: none;
+    border-width: 0;
+    border-top-width: 1px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto, Tahoma, sans-serif !important;
+    font-weight: 400;
+    line-height: 19px;
+    position: absolute;
+    display: flex; }
+    #alertAlreadyExists .footer .agree {
+      min-width: 75px;
+      right: auto;
+      left: 310px;
+      top: 0px;
+      margin: 0px;
+      padding: 7px;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 3px;
+      border-color: #026b97;
+      background-color: #026b97;
+      width: 59px;
+      height: 30px;
+      position: relative;
+      cursor: pointer; }
+      #alertAlreadyExists .footer .agree:hover {
+        background-color: #0088c1; }
+      #alertAlreadyExists .footer .agree:active {
+        background-color: #00577b; }
+      #alertAlreadyExists .footer .agree .txt {
+        font-family: Roboto !important;
+        font: 400 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+        color: #f0f0f0;
+        padding: 0 5px;
+        max-width: 100%;
+        display: block;
+        width: auto;
+        height: 26px;
+        left: 13px;
+        position: absolute; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,422 @@
+#draggable-header .form_header {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  border-color: #dfdfdf;
+  border-width: 1px;
+  background-color: #f0f0f0 !important;
+  cursor: move;
+  z-index: 2;
+  overflow: hidden; }
+  #draggable-header .form_header .title {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+    #draggable-header .form_header .title > * {
+      font: 700 16px roboto !important;
+      color: #212121;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+  #draggable-header .form_header .toggle {
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    position: absolute;
+    right: 3px; }
+    #draggable-header .form_header .toggle span {
+      overflow: hidden;
+      width: 16px;
+      height: 16px;
+      margin: 0;
+      color: #fff;
+      text-align: center;
+      opacity: 0.8;
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+
+.fi:focus,
+textarea:focus,
+.combobox:focus {
+  outline: none;
+  border-color: #00577b !important; }
+
+.form {
+  padding: 18px 16px 0px;
+  left: 0px;
+  width: 596px;
+  height: auto;
+  min-height: 465px;
+  top: 0px;
+  background: #fff;
+  color: #404040;
+  font-size: 13px;
+  font-weight: 300;
+  position: relative;
+  overflow: visible; }
+  .form .fi, .form textarea, .form .combobox {
+    border-radius: 3px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: #8f8f8f; }
+  .form .phoneOnlyNum {
+    left: 245px;
+    top: 0;
+    max-width: 25px; }
+    .form .phoneOnlyNum .tooltiptext {
+      left: 130% !important; }
+  .form .inputErrors {
+    position: relative; }
+    .form .inputErrors .required {
+      padding: 5px 25px 5px 10px !important;
+      border: 1px solid #f63233 !important;
+      max-width: 460.33px; }
+      .form .inputErrors .required:focus {
+        border: 1px solid #f63233 !important; }
+    .form .inputErrors .onlynum {
+      padding: 5px 25px 5px 10px !important;
+      border: 1px solid #f63233 !important;
+      max-width: 460.33px; }
+      .form .inputErrors .onlynum:focus {
+        border: 1px solid #f63233 !important; }
+    .form .inputErrors .error_icon {
+      width: 26px !important;
+      height: 35px !important;
+      right: 0;
+      display: flex;
+      justify-content: center; }
+      .form .inputErrors .error_icon span {
+        width: 16px !important;
+        height: 16px !important;
+        display: block;
+        align-self: center; }
+  .form .row {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 35px;
+    margin-top: 8px; }
+    .form .row #checkboxStatus {
+      position: absolute; }
+      .form .row #checkboxStatus .v-input {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 99px;
+        top: -6px; }
+        .form .row #checkboxStatus .v-input .v-input__control {
+          max-height: 35px; }
+          .form .row #checkboxStatus .v-input .v-input__control .v-input__slot {
+            max-height: 35px;
+            margin: 0; }
+            .form .row #checkboxStatus .v-input .v-input__control .v-input__slot .v-label {
+              margin: 0;
+              margin-left: 3px;
+              margin-bottom: 4px; }
+    .form .row .wrappermenu {
+      max-height: 110px !important;
+      overflow-y: scroll !important; }
+    .form .row .input-group {
+      display: flex;
+      position: relative;
+      width: 100%;
+      height: 100%; }
+      .form .row .input-group .req {
+        color: #DF4646; }
+      .form .row .input-group label {
+        padding-right: 5px;
+        width: 127px;
+        height: 35px;
+        font: 400 13px Roboto !important;
+        color: #404040;
+        margin-top: 6px;
+        top: 5px !important; }
+      .form .row .input-group .fi {
+        padding: 5px 10px;
+        width: 100%;
+        height: 35px;
+        font: 400 13px Roboto !important;
+        color: #404040;
+        background-color: #fff;
+        min-height: 30px;
+        border: 0;
+        margin: 0; }
+  .form .gdbl {
+    display: block; }
+    .form .gdbl .input-group {
+      display: inline-block;
+      width: 50%; }
+      .form .gdbl .input-group > input {
+        width: 167px !important;
+        position: absolute;
+        right: 0; }
+      .form .gdbl .input-group label {
+        position: absolute;
+        top: 3px; }
+      .form .gdbl .input-group:first-child .iit {
+        right: 10px !important; }
+      .form .gdbl .input-group:last-child label {
+        left: 8px; }
+      .form .gdbl .input-group .combobox {
+        position: absolute;
+        width: 168px !important;
+        height: 35px;
+        left: 103px !important;
+        top: 0; }
+      .form .gdbl .input-group input[name=phoneNumber] {
+        left: 103.5px;
+        width: 168px !important; }
+  .form #country .combobox {
+    position: absolute;
+    width: 168px !important;
+    height: 35px;
+    left: 103.5px !important;
+    top: 0; }
+  .form #country label {
+    position: absolute; }
+  .form #district .combobox {
+    position: absolute;
+    width: 167px !important;
+    height: 35px;
+    top: 0;
+    left: 115px !important; }
+  .form #storeTaxCode label {
+    left: 8px; }
+  .form #boxProvince {
+    left: 103.5px !important; }
+  .form #boxWard {
+    left: 103.5px !important; }
+  .form #address {
+    height: 82px !important;
+    margin-bottom: 6px; }
+    .form #address textarea {
+      resize: none;
+      width: 100%;
+      height: 100%; }
+    .form #address .tooltip {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+
+.formfooter {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  z-index: 99999;
+  border-top: 1px solid #d0d0d0; }
+  .formfooter .tip {
+    width: 93.52px;
+    height: 35px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 7px;
+    outline: 0;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: top;
+    left: auto;
+    right: 490px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    position: absolute;
+    transform: translateY(40%); }
+    .formfooter .tip:hover {
+      background-color: #e5e6eb; }
+    .formfooter .tip:focus {
+      border: 1px solid #6b6f9d !important;
+      color: #6b6f9d; }
+    .formfooter .tip span {
+      margin-top: 3px; }
+  .formfooter span {
+    max-width: 100%;
+    display: inline-block; }
+    .formfooter span:first-child {
+      padding: 0 5px;
+      max-width: 100%;
+      width: 16px !important;
+      height: 16px !important;
+      margin-right: 3px;
+      display: block; }
+    .formfooter span:last-child {
+      padding: 0 4px;
+      font: 600 13px Roboto !important;
+      font-weight: 300;
+      line-height: 17px;
+      font-size: 13px;
+      color: #2b3173; }
+  .formfooter .btns {
+    margin-left: auto;
+    display: flex;
+    position: absolute;
+    right: 10px;
+    position: absolute;
+    transform: translateY(40%); }
+    .formfooter .btns .btnSave {
+      margin: 0px;
+      height: 35px;
+      background-color: #026b97;
+      border-color: #026b97 !important;
+      padding: 9px 7px 7px 7px;
+      border-width: 1px;
+      border-style: solid;
+      display: flex;
+      border-radius: 3px; }
+      .formfooter .btns .btnSave:hover {
+        cursor: pointer;
+        background-color: #0088c1; }
+      .formfooter .btns .btnSave:active {
+        background-color: #00577b; }
+      .formfooter .btns .btnSave * {
+        color: #ffffff; }
+    .formfooter .btns .btnSaveAndAdd {
+      margin: 0px;
+      width: 138px;
+      height: 35px;
+      background-color: #fff;
+      border-color: #026b97 !important;
+      padding: 9px 7px 7px 7px;
+      border-width: 1px;
+      border-style: solid;
+      display: flex;
+      border-radius: 3px;
+      white-space: nowrap;
+      margin: 0 9px; }
+      .formfooter .btns .btnSaveAndAdd span:last-child {
+        color: #026b97; }
+      .formfooter .btns .btnSaveAndAdd:hover {
+        cursor: pointer; }
+        .formfooter .btns .btnSaveAndAdd:hover span:last-child {
+          color: #0088c1; }
+    .formfooter .btns .btnCancel {
+      margin: 0px;
+      width: 90px;
+      height: 35px;
+      background-color: #fff;
+      border-color: #ffffff !important;
+      padding: 9px 7px 7px 7px;
+      border-width: 1px;
+      border-style: solid;
+      display: flex;
+      border-radius: 3px; }
+      .formfooter .btns .btnCancel span:last-child {
+        color: #026b97; }
+      .formfooter .btns .btnCancel:hover {
+        border: 1px solid #0088c1 !important;
+        cursor: pointer; }
+
+.tterr .tooltip {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  z-index: 999999999; }
+.tterr .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 999999999;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 140%;
+  background-color: #DF4646; }
+.tterr .tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #DF4646 transparent transparent;
+  z-index: 999999999; }
+.tterr .tooltip:hover .tooltiptext {
+  visibility: visible;
+  position: absolute;
+  z-index: 999999999 !important; }
+
+.tstoreCode .tooltip2 .tooltiptext2,
+.tstoreName .tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  min-width: 220px;
+  width: auto;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 1px;
+  position: absolute;
+  z-index: 999999999;
+  top: 0px;
+  left: 10px;
+  background-color: #212121; }
+
+.tstoreCode .tooltip2 .tooltiptext2 {
+  min-width: 270px;
+  padding: 8px 4px; }
+
+.tstoreName .tooltip2 .tooltiptext2 {
+  min-width: 230px;
+  padding: 8px 2px; }
+
+.taddress .tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  min-width: 140px;
+  width: auto;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 999999999;
+  top: 10px;
+  left: 10px;
+  background-color: #212121; }
+
+.tttip {
+  position: absolute;
+  top: 0;
+  right: 0; }
+  .tttip .tooltip2 {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    z-index: 999999999; }
+  .tttip .tooltip2 .tooltiptext2::after {
+    content: "";
+    position: absolute;
+    top: 35%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #212121 transparent transparent;
+    z-index: 999999999; }
+  .tttip .tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+    position: absolute;
+    z-index: 999999999 !important; }
+
+.input-group:hover .tooltiptext2 {
+  visibility: visible;
+  position: absolute;
+  z-index: 999999999 !important; }
+
+/*# sourceMappingURL=style.css.map */

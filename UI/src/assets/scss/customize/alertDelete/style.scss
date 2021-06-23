@@ -1,0 +1,182 @@
+@import '../../mixins/mixins.scss';
+#alertDelete {
+    @include size(400px, 152px);
+    @include centerAbsolute('both');
+    background-color: #ffffff;
+    z-index: 999999;
+    border-radius: 3px;
+    & .header {
+        background-color: #F0F0F0;
+        @include size(100%, 41px);
+        border-radius: 3px;
+        padding: 10px 14px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dfdfdf;
+        border-bottom-left-radius: 0;
+        cursor: move;
+        & .wrapper {
+            @include size(370px, 19px);
+            font-size: 16px;
+            position: relative;
+            left: 0;
+            top: 0;
+            font-family: roboto, Tahoma, sans-serif!important;
+            font-size: 13px;
+            line-height: 17px;
+            font-weight: 300;
+            & .title {
+                font: 600 16px Roboto!important;
+                color: #212121;
+            }
+            & .icon {
+                right: auto;
+                left: 354px;
+                top: 1px;
+                margin: 0px;
+                cursor: pointer;
+                font-size: 16px;
+                line-height: 1;
+                position: absolute;
+                @include size(16px);
+                & span {
+                    background: url('../../../../../public/ImagesIcons/common-icon.png') no-repeat -1102px -153px;
+                    font: 16px/1 FontAwesome;
+                    overflow: hidden;
+                    @include size(16px);
+                    margin: 0;
+                    color: #fff;
+                    text-align: center;
+                    opacity: .8;
+                    display: block;
+                }
+            }
+        }
+    }
+    & .body {
+        overflow: auto;
+        width: 396px;
+        left: 0px;
+        top: 39px;
+        height: 64px;
+        background: #fff;
+        color: #000;
+        font-size: 13px;
+        font-weight: 300;
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        overflow: hidden;
+        border-radius: 3px;
+        & .icon {
+            @include size(100%);
+            margin: 0px;
+            position: relative;
+            & span {
+                @include size(44px);
+                position: absolute;
+                right: auto;
+                left: 0px;
+                margin: 0px;
+                top: 0px;
+                display: block;
+                background: url('../../../../../public/ImagesIcons/icon-popup.png') no-repeat -165px -2px;
+            }
+        }
+        & .text {
+            right: auto;
+            margin: 0px;
+            height: 34px;
+            width: 322px;
+            position: absolute;
+            left: 64px;
+            top: 10px;
+            overflow: hidden;
+        }
+    }
+    & .footer {
+        width: 399px;
+        right: auto;
+        left: 0px;
+        bottom: 0px;
+        padding: 8px 0 8px 6px;
+        border-style: solid;
+        border-color: #dfdfdf;
+        background-image: none;
+        border-width: 0;
+        border-top-width: 1px;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: roboto, Tahoma, sans-serif !important;
+        font-weight: 400;
+        line-height: 19px;
+        position: absolute;
+        display: flex;
+        & .agree {
+            min-width: 75px;
+            right: auto;
+            left: 228px;
+            top: 0px;
+            margin: 0px;
+            padding: 7px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 3px;
+            border-color: #DF4646;
+            background: url('../../../../../public/ImagesIcons/delete-white.png') no-repeat 9px 8px #DF4646;
+            @include size(59px,
+            30px);
+            position: relative;
+            cursor: pointer;
+            &:hover {
+                background-color: #DF4646;
+            }
+            & .txt {
+                font-family: Roboto!important;
+                color: #fff;
+                font-weight: 700;
+                font: 700 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+                padding: 0 5px;
+                max-width: 100%;
+                display: block;
+                @include size(20px,
+                26px);
+                left: 22px;
+                position: absolute;
+            }
+        }
+        & .cancel {
+            min-width: 75px;
+            right: auto;
+            left: 240px;
+            top: 1px;
+            margin: 0px;
+            border-radius: 3px;
+            padding: 7px;
+            background: url('../../../../../public/ImagesIcons/cancel-blue.png') no-repeat 3px 9px #fff;
+            @include size(59px,
+            30px);
+            position: relative;
+            font-size: 13px;
+            cursor: pointer;
+            & .txt {
+                color: #026b97;
+                @include size(57px,
+                26px);
+                left: 15px;
+                position: absolute;
+                cursor: pointer;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: block;
+                font: 700 12px/16px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+                padding: 0 5px;
+                max-width: 100%;
+                font-family: Roboto!important;
+                font-weight: 700;
+            }
+        }
+    }
+}

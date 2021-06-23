@@ -1,0 +1,252 @@
+@import '../../mixins/mixins.scss';
+.icon-notify {
+    background: url('../../../../../public/ImagesIcons/notify-18.png') no-repeat;
+}
+
+.icon-notify-hover {
+    background: url('../../../../../public/ImagesIcons/notify-hover-18.png') no-repeat;
+}
+
+.icon-help {
+    background: url('../../../../../public/ImagesIcons/icon_help_18.png') no-repeat;
+}
+
+.icon-help-hover {
+    background: url('../../../../../public/ImagesIcons/icon-help-18-hover.png') no-repeat;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    border-color: #f6f6f6!important;
+    padding: 0;
+    top: 0%;
+    width: calc(100% - 150px);
+    height: 52px;
+    max-height: 52px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    & .header_title,
+    & .header_function {
+        height: 52px;
+    }
+    & .header_title {
+        position: relative;
+        width: 122px;
+        & label {
+            position: absolute;
+            padding: 0px 0px 0px 21px;
+            right: auto;
+            left: 0px;
+            top: 18px;
+            margin: 0px;
+            font-size: 18px!important;
+            font-weight: 700;
+            color: #212121;
+            line-height: 17px;
+        }
+    }
+    & .header_function {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: calc(526px + 17px);
+        & .user {
+            display: flex;
+            position: absolute;
+            left: 208px;
+            width: 187.48px;
+            margin: 0px;
+            height: 32px;
+            right: auto;
+            top: 10px;
+            padding: 7px;
+            & .avatar {
+                @include size(28px);
+                position: absolute;
+                top: 2px;
+                & .img {
+                    display: block;
+                    @include size(28px);
+                    background-image: url('../../../../../public/ImagesIcons/Image.png');
+                    background-repeat: no-repeat;
+                    background-size: 28px;
+                    text-align: center;
+                    background-position: center center;
+                    flex-shrink: 0;
+                }
+            }
+            & .name {
+                position: absolute;
+                top: 5px;
+                left: 38px;
+                padding: 4px 11px 0 5px;
+                font-size: 13px;
+                & span {
+                    -webkit-font-smoothing: antialiased;
+                    -webkit-tap-highlight-color: transparent;
+                    cursor: pointer;
+                    white-space: nowrap;
+                    font-family: roboto, Tahoma, sans-serif!important;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: block;
+                    font: 400 12px/17px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+                    max-width: 100%;
+                    color: #212121!important;
+                    font-size: 13px!important;
+                    font-weight: 700 !important;
+                }
+            }
+            & .option {
+                position: absolute;
+                top: 6.5px;
+                right: 7px;
+                width: 20px;
+                padding-left: -5px;
+                color: #fff;
+                background: url('../../../../../public/ImagesIcons/arrow-down-line.png') no-repeat;
+                padding-top: 6px;
+                margin-top: 8px;
+                content: "ïƒ—";
+                font: 16px/1 FontAwesome;
+                & .shadow {
+                    @include size(182px,
+                    98px);
+                    position: absolute;
+                    left: 0px;
+                    transform: translateX(-85%);
+                    width: 184px;
+                    line-height: 17px;
+                    font-weight: 300;
+                    border-radius: 5px;
+                    z-index: -9999;
+                    box-shadow: rgb(136, 136, 136) 0px 0px 6px;
+                    top: 21px;
+                }
+                & .menu {
+                    height: 101px !important;
+                    width: 184px;
+                    border-radius: 3px;
+                    top: 18px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #dfdfdf;
+                    max-height: 330px;
+                    z-index: 99999;
+                    position: absolute;
+                    left: 0px;
+                    transform: translateX(-85%);
+                    line-height: 17px;
+                    font-weight: 300;
+                    & .item {
+                        @include size(100%,
+                        32.7px);
+                        border-width: 0;
+                        cursor: pointer;
+                        &:hover * {
+                            color: #0088c1;
+                        }
+                        & a {
+                            @include size(100%,
+                            32.7px);
+                            display: block;
+                            text-decoration: none;
+                            line-height: 17px;
+                            outline: 0;
+                            border-bottom: 1px solid #c3c3c3;
+                            cursor: pointer;
+                            white-space: nowrap;
+                            font-weight: 300;
+                            & span {
+                                display: inline-block;
+                                color: #212121;
+                                margin-left: 36px;
+                                margin-right: 8px;
+                                font-size: 13px;
+                                font-weight: 500;
+                                line-height: 31px;
+                                cursor: pointer;
+                                white-space: nowrap;
+                                @include size(auto,
+                                31.7px);
+                                padding-top: 1px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        & .support {
+            position: absolute;
+            left: calc(208px + 189px);
+            background: #2b3173 url('../../../../../public/ImagesIcons/misasupport_1.png') no-repeat;
+            width: 46.2px;
+            min-width: 46.2px;
+            height: 52px;
+            right: auto;
+            top: 0px;
+            margin: 0px;
+            border-color: #2b3173;
+            padding: 7px;
+            border-width: 1px;
+            border-style: solid;
+            line-height: 17px;
+        }
+        & .notify {
+            position: absolute;
+            top: 8px;
+            left: calc(208px + 187.48px + 46.2px + 3px);
+            display: flex;
+            justify-content: center;
+            @include size(46px,
+            36px);
+            padding: 7px;
+            & .img {
+                @include centerAbsolute("both");
+                @include size(32px,
+                22px);
+                background-size: 16px 18px;
+                background-position: center center;
+                font-size: 16px;
+                color: #f0f0f0;
+                line-height: 16px;
+            }
+        }
+        & .separator {
+            position: absolute;
+            height: 52px;
+            right: auto;
+            top: 0px;
+            margin: 0px;
+            left: calc(208px + 187.48px + 46.2px + 3px + 49px);
+            background-color: #e1e1e1!important;
+            width: 1px!important;
+            border: none;
+            border-right: 1px solid #f6f6f6;
+            padding: 0;
+            outline: none;
+            overflow: hidden;
+        }
+        & .help {
+            left: calc(208px + 187.48px + 46.2px + 2px + 46px + 5px);
+            position: absolute;
+            top: 7px;
+            display: flex;
+            justify-content: center;
+            @include size(46px,
+            36px);
+            padding: 7px;
+            & .img {
+                @include centerAbsolute("both");
+                @include size(32px,
+                22px);
+                background-size: 17.2px 18px;
+                background-position: center center;
+                font-size: 16px;
+                color: #f0f0f0;
+                line-height: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,102 @@
+@import '../../mixins/mixins.scss';
+#sidebar {
+    background-color: #2b3173;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    @include size(150px, 100%);
+    & .logo {
+        background-color: #1E235A;
+        @include size(150px, 52px);
+        & img {
+            @include size(100%, 53.24);
+            padding-top: 3px;
+        }
+    }
+    & .items,
+    & .bottom_menu {
+        & .item {
+            cursor: pointer;
+            position: relative;
+            @include size(100%, 40px);
+            position: relative;
+            display: inline-block;
+            margin: 0 auto;
+            background-color: #2b3173;
+            z-index: 9999999;
+            &:hover {
+                background-color: #1E235A;
+                & .label {
+                    color: #ffffff;
+                }
+            }
+            &:not(:first-child) {}
+            & a {
+                text-decoration: none;
+                position: relative;
+                @include size(100%, 40px);
+                line-height: 17px;
+                box-sizing: content-box;
+                font-size: 13px;
+                & .icon {
+                    background-image: url('../../../../../public/ImagesIcons/slibarmenu.png');
+                    background-repeat: no-repeat;
+                    @include size(22px,
+                    38px);
+                    display: inline-block;
+                    position: absolute;
+                    left: 8px;
+                    top: 2px;
+                    z-index: 1;
+                }
+                & .icon-dashboard {
+                    background-position: 0 6px;
+                }
+                & .icon-report {
+                    background-position: 0 -273px;
+                }
+                & .icon-deleveryledger {
+                    background-image: url('../../../../../public/ImagesIcons/ic_sogiaohang.png');
+                    background-position: 4px 9px;
+                }
+                & .icon-purchases {
+                    background-image: url('../../../../../public/ImagesIcons/slibarmenu.png');
+                    background-position: 0 -33px;
+                }
+                & .icon-sales {
+                    background-image: url('../../../../../public/ImagesIcons/slibarmenu.png');
+                    background-position: 0 -193px;
+                }
+                & .icon-storemanagement {
+                    background-image: url('../../../../../public/ImagesIcons/slibarmenu.png');
+                    background-position: 0 -233px;
+                }
+                & .icon-products {
+                    background-image: url('../../../../../public/ImagesIcons/slibarmenu.png');
+                    background-position: 0 -350px;
+                }
+                & .label {
+                    @include size(150px,
+                    26px);
+                    font-size: 13px;
+                    color: #aaacc7;
+                    position: absolute;
+                    left: 0;
+                    top: 11px;
+                    bottom: 3px;
+                    text-align: left;
+                    padding-left: 40px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+    & .bottom_menu {
+        border-top: 1px solid #190472;
+    }
+}
+
+.active_nav {
+    background-color: #1E235A !important;
+}
